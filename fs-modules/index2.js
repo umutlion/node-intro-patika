@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-/* // Read File
+// Read File
 
 fs.readFile('password.txt', 'utf8', (err, data) => {
     if (err) console.log(err);
@@ -37,7 +37,7 @@ fs.unlink('example.json', (err) => {
 fs.mkdir('uploads/img', {recursive:true}, (err) => {
     if(err) console.log(err);
     console.log('Klasör(ler) oluşturuldu')
-}) */
+}) 
 
 // DELETE DIRECTORIES
 
